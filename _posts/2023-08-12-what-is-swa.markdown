@@ -3,7 +3,7 @@ layout: post
 title: SWA란 무엇인가
 date: 2023-08-12 15:42:00 +0900
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: # Add image post (optional)
+img: software-architect.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [SWA]
 ---
@@ -13,6 +13,32 @@ SWA(Software Architect)를 단어 그대로 보면 소프트웨어 건축가이�
 
 소프트웨어 아키텍처를 설계하는 일은 인간 중심의 설계 철학과 맥을 같이 한다. SWA는 PO(프로덕트 오너), PM(프로젝트 매니저), 그리고 모든 이해관계자(Stakeholder)와 협업하면서 비즈니스 목표와 요구사항을 만들어간다. 
 
+SWA의 업무는 크게 4가지로 볼 수 있다.  먼저, 요구사항에 따라 개발환경과 프레임워크를 구성해서 개발자들이 개발을 잘 할 수 있도록 가이드라인을 제공하고, 테스트 및 오픈을 위한 빌드/배포/운영서버 환경을 구성하고, 오픈 전후 운영 환경에서 발생하는 문제를 해결한다.
+
+| 프로젝트 단계 | SWA의 업무 |
+|:----------:|:--------------------:|
+|**분석/설계**|프레임워크 요구사항 조사 <br /> 소프트웨어 아키텍처 설계 <br /> 개발 프레임워크 설계 <br /> 로컬 개발 환경 구성 <br /> 개발 프레임워크 구현 <br /> 샘플 프로그램 개발 <br /> POC(Proof Of Concept) <br /> 개발 가이드 작성 <br /> 개발자 교육
+|**개발**| 코드 인스펙션 <br /> 개발자 지원 및 문제 해결 <br /> 빌드/배포 환경 구성 <br /> 통합테스트 환경 구성
+|**테스트**| 통합테스트 지원 <br /> 운영 환경 구성 <br /> 성능테스트 지원
+|**오픈**| 오픈 준비 <br /> 오픈 후 문제 해결
+
+---
+
 # SWA의 역할
 
+## 1. 프레임워크 요구사항 조사
+
+## 2. 소프트웨어 아키텍처 설계
+
+## 3. 개발 프레임워크 설계
+
+## 4. 로컬 개발환경 구성
+
+## 5. 개발 프레임워크 구현
+
+## 6. 개발 가이드 작성 및 개발자 교육
+
+## 7. 개발 단계에서의 개발자 지원
+
+## 8. 오픈 준비, 오픈, 안정화
 
