@@ -7,7 +7,7 @@ img: jetson-nano.jpg
 tags: [Jetson Nano, Setting] # add tag
 ---
 
-![JetSon Nano](./images/jetson/jetson_nano.jpg)
+![JetSon Nano]({{site.baseurl}}/assets/img/jetson/jetson_nano.jpg)
 
 # 1. JetSon Nano 환경 설정
 
@@ -32,10 +32,10 @@ tags: [Jetson Nano, Setting] # add tag
 ```
 
 2. Setting에서 desktop_sharing에서 다음과 같이 설정
-![desktop sharing](./images/jetson/desktop_sharing.png)
+![desktop sharing]({{site.baseurl}}/assets/img/jetson/desktop_sharing.png)
 
 3. Setting에서 wired_connection의 IPv4 Setting Method를 Shared to other computer로 설정
-![wired connection](./images/jetson/wired_connection.png)
+![wired connection]({{site.baseurl}}/assets/img/jetson/wired_connection.png)
 
 4. Terminal에서 ifconfig 명령어로 eth0 주소 또는 wlan0 주소 확인 
 
@@ -49,7 +49,7 @@ tags: [Jetson Nano, Setting] # add tag
 
 - VNC Viewer 에서 보이는 JetSon Nano OS의 해상도를 설정
 - /etc/X11/xorg.conf 파일의 마지막에 아래의 코드를 입력
-![screen](./images/jetson/screen.png)
+![screen]({{site.baseurl}}/assets/img/jetson/screen.png)
 - Virtual 값으로 해상도 설정
 
 ---
@@ -58,18 +58,18 @@ tags: [Jetson Nano, Setting] # add tag
 
 ## 1. Extension에서 Remote_ssh 설치
 
-![remote ssh](./images/jetson/remote_ssh.png)
+![remote ssh]({{site.baseurl}}/assets/img/jetson/remote_ssh.png)
 
 ## 2. Remote 설정
 
 1. VSCode의 왼쪽 아래에 Open a Remote Window 버튼 클릭
-![remote](./images/jetson/remote.png)
+![remote]({{site.baseurl}}/assets/img/jetson/remote.png)
 
 2. Connect to Host... 클릭
-![remote](./images/jetson/remote2.png)
+![remote]({{site.baseurl}}/assets/img/jetson/remote2.png)
 
 3. 새로운 Host를 추가하기 위해 Configure SSH Hosts... 클릭
-![remote](./images/jetson/remote3.png)
+![remote]({{site.baseurl}}/assets/img/jetson/remote3.png)
 
 4. config 파일에서 아래의 정보 입력
 ```
