@@ -9,10 +9,9 @@ url: "HeeSeungYoon.github.io" # the base hostname & protocol for your site, e.g.
 
 # Author Settings
 author: Yoon Hee Seung # add your name
-author-img: # add your photo
+author-img: yoon-hee-seung.jpg
 about-author: I am an AI developer. Always hungry to keep learning. # add description
-social-github: HeeSeungYoon # add your Github handle
-social-linkedin: # add your Linkedin handle
+social-github: HeeSeungYoon/Portfolio # add your Github handle
 social-email: iyhs1858@gmail.com # add your Email address
 
 # Disqus
