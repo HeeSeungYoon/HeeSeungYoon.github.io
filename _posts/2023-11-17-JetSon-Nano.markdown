@@ -41,11 +41,14 @@ tags: [Jetson Nano, Setting] # add tag
 	</key>
 	```
 
-	저장 후 컴파일, 재시작
-	- sudo glib-compile-schemas /usr/share/glib-2.0/schemas
-	- gsettings set org.gnome.Vino require-encryption false
-	- gsettings set org.gnome.Vino prompt-enabled false
-	- sudo reboot
+3. 저장 후 컴파일, 재시작
+	```bash
+	sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+	gsettings set org.gnome.Vino require-encryption false
+	gsettings set org.gnome.Vino prompt-enabled false
+	sudo reboot
+	```
+	
 
 3. Setting에서 wired_connection의 IPv4 Setting Method를 Shared to other computer로 설정
 
