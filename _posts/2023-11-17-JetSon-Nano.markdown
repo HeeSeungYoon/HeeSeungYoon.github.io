@@ -13,11 +13,13 @@ tags: [Jetson Nano, Setting] # add tag
 
 ## 1.1. [JetSon Nano Developer Kit SD Card Image 설치](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/jeston_nano/jetson-nano-jp46-sd-card-image.zip)(4GB)
 
-## 1.2. [balenaEtcher](https://etcher.balena.io/#download-etcher) 설치, 실행하여 SD Card 포맷
+## 1.2. [SD Card Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/) 설치하여 SD Card 포맷
 
-## 1.3. JetSon Nano에 SD Card를 넣고 실행, Ubuntu OS 설치
+## 1.3. [balenaEtcher](https://etcher.balena.io/#download-etcher) 설치, 실행하여 SD Card에 이미지 설치
 
-## 1.4. Desktop Sharing
+## 1.4. JetSon Nano에 SD Card를 넣고 실행, Ubuntu OS 설치
+
+## 1.5. Desktop Sharing
 
 1. Window에서 VNC를 통해 JetSon Nano를 실행키시기 위해                                              /usr/share/glib-2.0/schemas/org.gnome.Vino.gschema.xml 파일 마지막에 아래 코드를 추가
 
@@ -41,13 +43,13 @@ tags: [Jetson Nano, Setting] # add tag
 
 4. Terminal에서 ifconfig 명령어로 eth0 주소 또는 wlan0 주소 확인 
 
-## 1.5. Window 환경으로 돌아와 [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) 설치
+## 1.6. Window 환경으로 돌아와 [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) 설치
 
-## 1.6. VNC Viewer를 실행시켜 JetSon Nano 연결 생성
+## 1.7. VNC Viewer를 실행시켜 JetSon Nano 연결 생성
 
 - JetSon Nano OS에서 확인한 wifi 주소 또는 ethernet 주소로 연결
 
-## 1.7. 모니터 해상도 설정
+## 1.8. 모니터 해상도 설정
 
 - VNC Viewer 에서 보이는 JetSon Nano OS의 해상도를 설정
 - /etc/X11/xorg.conf 파일의 마지막에 아래의 코드를 입력
@@ -59,11 +61,11 @@ tags: [Jetson Nano, Setting] # add tag
 
 # 2. VSCode에서 JetSon Nano OS 연결
 
-## 1. Extension에서 Remote_ssh 설치
+## 2.1. Extension에서 Remote_ssh 설치
 
 ![remote ssh]({{site.baseurl}}/assets/img/jetson/remote_ssh.png)
 
-## 2. Remote 설정
+## 2.2. Remote 설정
 
 1. VSCode의 왼쪽 아래에 Open a Remote Window 버튼 클릭
 
