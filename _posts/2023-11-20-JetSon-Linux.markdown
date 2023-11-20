@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JetSon Nano OS(Linux)
-date: 2023-11-20 00:00:00 +0900
+date: 2023-11-20 09:00:00 +0900
 description: JetSon Nano에서 Linux Setting
 img: # Add image post (optional)
 tags: [JetSon Nano, Linux, Setting] # add tag

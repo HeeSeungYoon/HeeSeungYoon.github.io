@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JetSon Nano
-date: 2023-11-17 00:00:00 +0900
+date: 2023-11-17 09:00:00 +0900
 description: # Add post description (optional)
 img: 
 tags: [Jetson Nano, Setting] # add tag
