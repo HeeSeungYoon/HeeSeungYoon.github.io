@@ -49,8 +49,10 @@ ToF 방식 뎁스 카메라의 단점을 개선한 스테레오 방식의 뎁스
     # 침식 후 팽창
     mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
     ```
-    - 트랙 벽 필터링
-    - 원본 영상과 마스크에 bitwise_and 연산을 수행하여 필터링
+
+    - 원본 영상과 마스크에 bitwise_and 연산을 수행하여 트랙의 벽 필터링
+
+        <img src='{{site.baseurl}}/assets/img/picamera/filter.png' width=320 height=240/>
 
 ## 2.1. 모폴로지 연산
 침식(Erosion)
@@ -77,6 +79,8 @@ ToF 방식 뎁스 카메라의 단점을 개선한 스테레오 방식의 뎁스
 - 가우시안 필터링으로 노이즈 제거
 - 필터링한 영상을 GrayScale 영상으로 변환
 - Canny Edge Detection 알고리즘 수행하여 경계선 추출
+    
+    <img src='{{site.baseurl}}/assets/img/picamera/edge.png' width=320 height=240/>
 
 ## 3.1. Canny Edge Detection
 
@@ -98,6 +102,9 @@ ToF 방식 뎁스 카메라의 단점을 개선한 스테레오 방식의 뎁스
 # 4. 카메라가 보는 시야 지정
 
 - Edge가 검출된 영상에서 트랙의 코스를 검출 하기 위해 카메라가 보는 시야 영역 지정(region of interest)
+    <div align='center'>
+    <img src='{{site.baseurl}}/assets/img/picamera/roi_mask.png' width=320 height=240/><img src='{{site.baseurl}}/assets/img/picamera/mask.png' width=320 height=240/>
+    </div>
     ```python
     # 카메라 시야 모양 비율
     trap_bottom_width = 0.95
@@ -141,6 +148,9 @@ ToF 방식 뎁스 카메라의 단점을 개선한 스테레오 방식의 뎁스
 - 추출한 직선의 기울기를 계산
 - 기울기의 방향과 직선의 x 좌표를 기준으로 영상 중앙으로부터 직선이 좌, 우 중 어느 방향에 있는지 판단
 
+    <div align='center'>
+    <img src='{{site.baseurl}}/assets/img/picamera/line.png' width=320 height=240/><img src='{{site.baseurl}}/assets/img/picamera/line2.png' width=320 height=240/>
+    </div>
 --- 
 
 # 6. 가장 적합한 선 찾기
@@ -179,3 +189,7 @@ m = (x1-x2)*(y3-y4)-(y1-y2)*(x3-x4)
         vx = ((x1*y2-y1*x2)*(x3-x4)-(x1-x2)*(x3*y4-y3*x4))/m
         vy = ((x1*y2-y1*x2)*(y3-y4)-(y1-y2)*(x3*y4-y3*x4))/m 
 ```
+
+<div align='center'>
+    <img src='{{site.baseurl}}/assets/img/picamera/result1.png' width=320 height=240/><img src='{{site.baseurl}}/assets/img/picamera/result2.png' width=320 height=240/>
+</div>
