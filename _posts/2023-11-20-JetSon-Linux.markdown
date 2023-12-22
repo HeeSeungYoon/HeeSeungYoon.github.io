@@ -4,7 +4,7 @@ title: JetSon Nano OS(Linux)
 date: 2023-11-20 09:00:00 +0900
 description: JetSon Nano에서 Linux Setting
 img: # Add image post (optional)
-tags: [JetSon Nano, Linux, Setting] # add tag
+tags: [Jetson Nano, Linux, Setting] # add tag
 ---
 
 # Python 가상 환경 설정
