@@ -12,13 +12,12 @@ author: Yoon Hee Seung # add your name
 author-img: yoon-hee-seung.jpg
 about-author: I am an AI developer. Always hungry to keep learning. # add description
 social-github: HeeSeungYoon/Portfolio # add your Github handle
+social-linkedin: www.linkedin.com/in/heeseung-yoon-b0994510a
 social-email: iyhs1858@gmail.com # add your Email address
 
 # Disqus
 discus-identifier: 
   comments : false # add your discus identifier
-
-toc : true
 
 # Tracker
 analytics: # Google Analytics
@@ -29,8 +28,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
+  - jekyll-toc
 
 paginate: 8
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+toc: true
