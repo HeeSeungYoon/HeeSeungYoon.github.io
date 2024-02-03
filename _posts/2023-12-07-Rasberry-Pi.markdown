@@ -57,6 +57,7 @@ tags: [Rasberry Pi, Setting] # add tag
 
 - Window에서 네트워크 연결
     - Wi-Fi 연결 우클릭 -> 공유 탭 -> 인터넷 연결 공유 허용 (이더넷)
+    
     ![network share]({{site.baseurl}}/assets/img/rasberrypi/network.png)
     
     - 이더넷 속성에서 IPv4 속성을 확인해보면 Window에서 Rasberry Pi로 IP 주소를 할당해줌
