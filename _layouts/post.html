@@ -2,11 +2,6 @@
 layout: main
 ---
 <article class="article-page">
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-  </script>
-  <script type="text/javascript" src="http://cdn.mathjax.org/math..."></script>
-
   <div class="page-content">
     {% if page.img %}
     <div class="page-cover-image">
@@ -37,3 +32,8 @@ layout: main
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/math..."></script>
