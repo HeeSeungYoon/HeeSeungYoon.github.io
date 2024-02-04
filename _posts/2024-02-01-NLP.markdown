@@ -60,7 +60,7 @@ tags: [Natural Language Processing] # add tag
 - 국소 표현(Local Representation) = 이산 표현(Discrete Representation)
     - 해당 단어 그 자체만 보고 특정값을 맵핑하여 단어를 표현하는 방법.
 
-- 분산 표현(Distributed Representation) $$\subset$$ 연속 표현(Continuous Representaion)
+- 분산 표현(Distributed Representation) $\subset$ 연속 표현(Continuous Representaion)
     - 표현하고자 하는 단어의 주변을 참고하여 단어를 표현하는 방법.
     - 단어의 의미, 뉘앙스 표현 가능.
 
@@ -89,9 +89,9 @@ tags: [Natural Language Processing] # add tag
 
 - 문서의 유사도를 구하는 작업, 검색 시스템에서 검색 결과의 중요도를 정하는 작업, 문서 내에서 특정 단어의 중요도를 구하는 작업 등에 사용.
 
-- $$tf(d,t)$$: 특정 문서 $$d$$에서의 특정 단어 $$t$$의 등장 횟수.
+- $tf(d,t)$: 특정 문서 $d$에서의 특정 단어 $t$의 등장 횟수.
 
-- $$df(t)$$: 특정 단어 $$t$$가 등장한 문서의 수.
+- $df(t)$: 특정 단어 $t$가 등장한 문서의 수.
 
     $$idf(t) = log(\frac{n}{1+df(t)})$$
 
